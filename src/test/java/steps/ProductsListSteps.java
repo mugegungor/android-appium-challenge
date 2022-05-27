@@ -32,11 +32,7 @@ public class ProductsListSteps extends TestBase{
         Thread.sleep(10000);
         favouritePage.setProductListScreenClick();
     }
-    /*@Then("Ürün seçilir")
-    public void ürünSeçilir() {
-    favouritePage.setProductClick();
-    }
-*/
+
     @Then("Kategoriye uygun ürünler listelenir")
     public void kategoriyeUygunÜrünlerListelenir() {
         favouritePage.setProductSwipe();

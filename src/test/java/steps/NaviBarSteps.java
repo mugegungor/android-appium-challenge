@@ -1,12 +1,9 @@
 package steps;
 
 import base.TestBase;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import org.aspectj.weaver.ast.Test;
 import pages.*;
 
-import java.net.MalformedURLException;
 
 public class NaviBarSteps extends TestBase {
     FavouritePage favouritePage;
@@ -14,14 +11,6 @@ public class NaviBarSteps extends TestBase {
 
 
 
-
-  /* @Then("Ürün seçimi yapılır")
-    public void ürünSeçimiYapılır() {
-        favouritePage = new FavouritePage(driver);
-        favouritePage.setProductSelectClick();
-
-    }
-*/
     @Then("Listelerim ekranına tıklanılır")
     public void listelerimEkranınaTıklanılır() {
         naviBarPage = new NaviBarPage(driver);

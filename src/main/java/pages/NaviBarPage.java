@@ -5,7 +5,6 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class NaviBarPage extends PageBase{
-    String getFavouritePrice;
 
     public NaviBarPage (AppiumDriver appiumDriver) {
         super(appiumDriver);
@@ -34,11 +33,7 @@ public class NaviBarPage extends PageBase{
         Thread.sleep(20000);
         displayed(favouriteProductCheck);
     }
-   /* public String setFavouriteProductPriceCheck(String price){
-        getFavouritePrice = getAttribute(favouriteProductPriceCheck,"text");
-        System.out.printf("favourite product price" + favouriteProductPriceCheck);
-        return getFavouritePrice;
-*/
+
         public void setFavouriteProductPriceCheck(String price){
             String favouritePriceCheck = getAttribute(favouriteProductPriceCheck,"text");
             assertEqual(favouritePriceCheck, price);
