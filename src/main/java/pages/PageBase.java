@@ -56,10 +56,7 @@ public class PageBase {
     }
 
     public void waitByMilliSeconds(long milliseconds) {
-/*      Method belirli bir bekleme zamanı eklemek için oluşturuldu.
-        Bekleme zamanı olarak milisaniye cinsinden dışarıdan data alarak çalışır.
 
-*/
     }
 
     public void displayed(MobileElement element) {
