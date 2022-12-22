@@ -4,7 +4,6 @@ Feature: HepsiBurada Ürün Listeleme
   Scenario Outline: Ana sayfa ürün arama
     Given Android uygulaması başlatılır
     Given HepsiBurada Ana sayfası ekranı gösterilir
-    Given "7000" wait milliseconds
     Given Ana sayfada gösterilen kampanya popup kapatılır.
     Given Ana sayfada search box inputuna tıklanır
     Given Search alanına <products> yazılır
