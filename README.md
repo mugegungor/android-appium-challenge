@@ -24,7 +24,7 @@ Writing the following test cases with the Appium tool
 
 ## 🚀 About Me
 
-My job Software Develepor in Test at Teknasyon.
+Software Develepor in Test at Teknasyon.
 
 
 ## Authors
